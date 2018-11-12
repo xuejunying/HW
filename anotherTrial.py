@@ -107,6 +107,7 @@ for k in range (len3):
     x_Tmp = (1 - alpha[k]) * x_0 + alpha[k] * x_S
     lossValues[k] = objFunc1(x_Tmp)
 x1=1
+x2=2
 plt.plot(alpha, lossValues)
 plt.show()
 
